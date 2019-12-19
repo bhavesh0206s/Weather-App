@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #c0c0aa, #1cefff);
+}
+
+.location, .temperature{
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature{
+    flex-direction: column;
+}
+
+.degree-section{
+    display: flex;
+    align-items: center;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 40px;
+}
+
+.degree-section h2{
+    font-size: 100px;
+    cursor: pointer;
+}
+.temperature-degree{
+    cursor: pointer;
+}
+
+.temperature-description{
+    font-size: 30px;
+    cursor: pointer;
+}
